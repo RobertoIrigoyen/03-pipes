@@ -10,6 +10,8 @@ import { reject } from 'q';
 export class AppComponent {
   nombre = 'Roberto';
 
+  nombre2 = "RobertO Irigoyen LoPez";
+
 
   arreglo = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
@@ -33,5 +35,9 @@ export class AppComponent {
   });
 
   fecha = new Date();
+
+  video="fpFHH_vXVno";
+
+  activar:boolean=true;
 
 }
